@@ -15,6 +15,7 @@ public class ThalassaBlocks {
     public static final Block SKARN = register("skarn", new Block(FabricBlockSettings.copyOf(Blocks.TUFF).sounds(ThalassaBlockSoundGroups.THALASSA_STONES)));
     public static final Block SKARN_LAYER = register("skarn_layer", new LayerBlock(FabricBlockSettings.copyOf(SKARN)));
     public static final Block CLAMSTONE = register("clamstone", new Block(FabricBlockSettings.copyOf(Blocks.TUFF).sounds(ThalassaBlockSoundGroups.THALASSA_STONES)));
+    public static final Block CRAFTING_MAT = register("crafting_mat", new CraftingMatBlock(FabricBlockSettings.copyOf(Blocks.CRAFTING_TABLE)));
 
 
     private static Block register(String id, Block block, boolean registerItem) {

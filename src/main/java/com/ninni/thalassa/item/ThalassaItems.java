@@ -14,6 +14,7 @@ public class ThalassaItems {
     public static final Item SKARN = register("skarn", new BlockItem(ThalassaBlocks.SKARN, new FabricItemSettings().group(Thalassa.ITEM_GROUP)));
     public static final Item SKARN_LAYER = register("skarn_layer", new BlockItem(ThalassaBlocks.SKARN_LAYER, new FabricItemSettings().group(Thalassa.ITEM_GROUP)));
     public static final Item CLAMSTONE = register("clamstone", new BlockItem(ThalassaBlocks.CLAMSTONE, new FabricItemSettings().group(Thalassa.ITEM_GROUP)));
+    public static final Item CRAFTING_MAT = register("crafting_mat", new BlockItem(ThalassaBlocks.CRAFTING_MAT, new FabricItemSettings().group(Thalassa.ITEM_GROUP)));
 
     private static Item register(String id, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Thalassa.MOD_ID, id), item);
