@@ -1,0 +1,8 @@
+{
+  "parent": "thalassa:block/template/layer2",
+  "textures": {
+    "side": "thalassa:block/skarn_layer_side",
+    "top": "thalassa:block/skarn_layer_gray",
+    "bottom": "thalassa:block/skarn_layer_green"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "thalassa",
+  "version": "${version}",
+
+  "name": "Thalassa",
+  "description": "",
+  "authors": [
+    "Ninni", "FrostZae", "Mango"
+  ],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "assets/thalassa/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ninni.thalassa.Thalassa"
+    ],
+    "client": [
+      "com.ninni.thalassa.client.ThalassaClient"
+    ]
+  },
+  "mixins": [
+    "thalassa.mixins.json"
+  ],
+  "accessWidener": "thalassa.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": ">=1.18"
+  }
+}

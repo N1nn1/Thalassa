@@ -1,0 +1,91 @@
+{
+  "entity.fish.flop": {
+    "sounds": [
+      "minecraft:entity/fish/flop1",
+      "minecraft:entity/fish/flop2",
+      "minecraft:entity/fish/flop3",
+      "minecraft:entity/fish/flop4"
+    ],
+    "subtitle": "subtitles.entity.thalassa.fish.flop"
+  },
+  "entity.blumplet.hurt": {
+    "sounds": [
+      "thalassa:entity/blumplet/hurt"
+    ],
+    "subtitle": "subtitles.entity.thalassa.blumplet.hurt"
+  },
+  "entity.blumplet.death": {
+    "sounds": [
+      "thalassa:entity/blumplet/death"
+    ],
+    "subtitle": "subtitles.entity.thalassa.blumplet.death"
+  },
+  "entity.blumplet.ambient": {
+  "sounds": [
+    "thalassa:entity/blumplet/ambient",
+    "thalassa:entity/blumplet/ambient1",
+    "thalassa:entity/blumplet/ambient2"
+  ],
+  "subtitle": "subtitles.entity.thalassa.blumplet.ambient"
+  },
+  "entity.sea_rug.hurt": {
+    "sounds": [
+      "thalassa:entity/sea_rug/hurt"
+    ],
+    "subtitle": "subtitles.entity.thalassa.sea_rug.hurt"
+  },
+  "entity.sea_rug.death": {
+    "sounds": [
+      "thalassa:entity/sea_rug/death"
+    ],
+    "subtitle": "subtitles.entity.thalassa.sea_rug.death"
+  },
+  "entity.sea_rug.squeak": {
+    "sounds": [
+      "thalassa:entity/sea_rug/squeak"
+    ],
+    "subtitle": "subtitles.entity.thalassa.sea_rug.squeak"
+  },
+  "block.thalassa_stone.break": {
+    "sounds": [
+      "thalassa:block/stone/heavy",
+      "thalassa:block/stone/heavy1",
+      "thalassa:block/stone/heavy2"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.thalassa_stone.step": {
+    "sounds": [
+      "thalassa:block/stone/light",
+      "thalassa:block/stone/light1",
+      "thalassa:block/stone/light2",
+      "thalassa:block/stone/light3"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.thalassa_stone.hit": {
+    "sounds": [
+      "thalassa:block/stone/light",
+      "thalassa:block/stone/light1",
+      "thalassa:block/stone/light2",
+      "thalassa:block/stone/light3"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.thalassa_stone.place": {
+    "sounds": [
+      "thalassa:block/stone/heavy",
+      "thalassa:block/stone/heavy1",
+      "thalassa:block/stone/heavy2"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.thalassa_stone.fall": {
+    "sounds": [
+      "thalassa:block/stone/light",
+      "thalassa:block/stone/light1",
+      "thalassa:block/stone/light2",
+      "thalassa:block/stone/light3"
+    ]
+  }
+}

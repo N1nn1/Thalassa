@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "thalassa:block/skarn_top",
+    "side": "thalassa:block/skarn"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "thalassa:block/skarn_layer_side",
+    "bottom": "thalassa:block/skarn_layer_green",
+    "top": "thalassa:block/skarn_layer_gray"
+  }
+}

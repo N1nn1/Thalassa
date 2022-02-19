@@ -1,0 +1,24 @@
+{
+  "itemGroup.thalassa.item_group": "Thalassa",
+
+  "entity.thalassa.blumplet": "Blumplet",
+  "entity.thalassa.sea_rug": "Sea Rug",
+  "entity.thalassa.sea_blanket": "Sea Blanket",
+
+  "block.thalassa.skarn": "Skarn",
+  "block.thalassa.skarn_layer": "Skarn Layer",
+  "block.thalassa.clamstone": "Clamstone",
+
+  "item.thalassa.blump": "Blump",
+  "item.thalassa.blumplet_spawn_egg": "Blumplet Spawn Egg",
+  "item.thalassa.sea_rug_spawn_egg": "Sea Rug Spawn Egg",
+  "item.thalassa.sea_blanket_spawn_egg": "Sea Blanket Spawn Egg",
+
+  "subtitles.entity.thalassa.fish.flop": "Fish flops",
+  "subtitles.entity.thalassa.sea_rug.squeak": "Sea rug squeaks",
+  "subtitles.entity.thalassa.sea_rug.hurt": "Sea rug hurts",
+  "subtitles.entity.thalassa.sea_rug.death": "Sea rug dies",
+  "subtitles.entity.thalassa.blumplet.ambient": "Blumplet chirps",
+  "subtitles.entity.thalassa.blumplet.hurt": "Blumplet hurts",
+  "subtitles.entity.thalassa.blumplet.death": "Blumplet dies"
+}
