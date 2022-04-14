@@ -5,9 +5,12 @@
   "entity.thalassa.sea_rug": "Sea Rug",
   "entity.thalassa.sea_blanket": "Sea Blanket",
 
+  "block.thalassa.crafting_mat": "Crafting Mat",
+  "block.thalassa.bubble_quartz": "Bubble Quartz",
   "block.thalassa.skarn": "Skarn",
   "block.thalassa.skarn_layer": "Skarn Layer",
   "block.thalassa.clamstone": "Clamstone",
+  "block.thalassa.bouy_kelp": "Bouy Kelp",
 
   "item.thalassa.blump": "Blump",
   "item.thalassa.blumplet_spawn_egg": "Blumplet Spawn Egg",

@@ -1,6 +1,7 @@
 package com.ninni.thalassa.client;
 
 import com.google.common.collect.ImmutableMap;
+import com.ninni.thalassa.block.ThalassaBlocks;
 import com.ninni.thalassa.client.init.ThalassaEntityModelLayers;
 import com.ninni.thalassa.client.model.entity.BlumpletEntityModel;
 import com.ninni.thalassa.client.model.entity.SeaBlanketEntityModel;
@@ -12,8 +13,10 @@ import com.ninni.thalassa.entity.ThalassaEntities;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendereregistry.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendereregistry.v1.EntityRendererRegistry;
+import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.entity.model.EntityModelLayer;
 
 @Environment(EnvType.CLIENT)
@@ -33,5 +36,9 @@ public class ThalassaClient implements ClientModInitializer {
 			.put(ThalassaEntityModelLayers.SEA_BLANKET, SeaBlanketEntityModel::getTexturedModelData)
 			.build().forEach(EntityModelLayerRegistry::registerModelLayer);
 
+		BlockRenderLayerMap brlm = BlockRenderLayerMap.INSTANCE;
+		brlm.putBlocks(RenderLayer.getCutout(),
+			ThalassaBlocks.BUBBLE_QUARTZ
+		);
 	}
 }

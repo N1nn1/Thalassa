@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "thalassa:block/crafting_mat"
+    }
+  }
+}

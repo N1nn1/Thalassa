@@ -55,6 +55,7 @@ public class BlumpletEntity extends ThalassaSchoolingFishEntity {
 
     @Override
     protected ActionResult interactMob(PlayerEntity player, Hand hand) {
+        //TODO make this good
         ItemStack itemStack = player.getStackInHand(hand);
         if (itemStack.isOf(Items.SHEARS) && this.isShearable()) {
             this.sheared(SoundCategory.PLAYERS);

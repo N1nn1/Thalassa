@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "thalassa:block/bubble_quartz",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "thalassa:block/bubble_quartz",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "thalassa:block/bubble_quartz",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "thalassa:block/bubble_quartz",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "thalassa:block/bubble_quartz"
+    },
+    "facing=west": {
+      "model": "thalassa:block/bubble_quartz",
+      "x": 90,
+      "y": 270
+    }
+  }
+}
