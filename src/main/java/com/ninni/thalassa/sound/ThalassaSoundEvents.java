@@ -35,6 +35,15 @@ public class ThalassaSoundEvents {
         return createBlockSound("thalassa_stone", type);
     }
 
+
+    public static final SoundEvent BLOCK_TWILIGHT_STONE_BREAK = thalassa_twilight_stone("break");
+    public static final SoundEvent BLOCK_TWILIGHT_STONE_STEP = thalassa_twilight_stone("step");
+    public static final SoundEvent BLOCK_TWILIGHT_STONE_PLACE = thalassa_twilight_stone("place");
+    public static final SoundEvent BLOCK_TWILIGHT_STONE_HIT = thalassa_twilight_stone("hit");
+    public static final SoundEvent BLOCK_TWILIGHT_STONE_FALL = thalassa_twilight_stone("fall");
+    private static SoundEvent thalassa_twilight_stone(String type) {return createBlockSound("thalassa_twilight_stone", type);}
+
+
     private static SoundEvent register(String id) {
         Identifier identifier = new Identifier(Thalassa.MOD_ID, id);
         return Registry.register(Registry.SOUND_EVENT, identifier, new SoundEvent(identifier));

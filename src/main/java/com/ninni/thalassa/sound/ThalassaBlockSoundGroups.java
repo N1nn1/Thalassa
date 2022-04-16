@@ -13,4 +13,14 @@ public class ThalassaBlockSoundGroups {
         ThalassaSoundEvents.BLOCK_STONE_HIT,
         ThalassaSoundEvents.BLOCK_STONE_FALL
     );
+
+    public static final BlockSoundGroup THALASSA_TWILIGHT_STONES = new BlockSoundGroup(
+        0.4F, 1.0F,
+
+        ThalassaSoundEvents.BLOCK_TWILIGHT_STONE_BREAK,
+        ThalassaSoundEvents.BLOCK_TWILIGHT_STONE_STEP,
+        ThalassaSoundEvents.BLOCK_TWILIGHT_STONE_PLACE,
+        ThalassaSoundEvents.BLOCK_TWILIGHT_STONE_HIT,
+        ThalassaSoundEvents.BLOCK_TWILIGHT_STONE_FALL
+    );
 }

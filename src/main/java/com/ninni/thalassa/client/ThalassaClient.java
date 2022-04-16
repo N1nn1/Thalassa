@@ -38,7 +38,9 @@ public class ThalassaClient implements ClientModInitializer {
 
 		BlockRenderLayerMap brlm = BlockRenderLayerMap.INSTANCE;
 		brlm.putBlocks(RenderLayer.getCutout(),
-			ThalassaBlocks.BUBBLE_QUARTZ
+			ThalassaBlocks.BUBBLE_QUARTZ,
+			ThalassaBlocks.BOUY_KELP,
+			ThalassaBlocks.BOUY_KELP_PLANT
 		);
 	}
 }

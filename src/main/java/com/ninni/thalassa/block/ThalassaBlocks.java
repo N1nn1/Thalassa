@@ -8,6 +8,7 @@ import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.Material;
+import net.minecraft.block.PillarBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -17,8 +18,12 @@ public class ThalassaBlocks {
     public static final Block SKARN = register("skarn", new Block(FabricBlockSettings.copyOf(Blocks.TUFF).sounds(ThalassaBlockSoundGroups.THALASSA_STONES)));
     public static final Block SKARN_LAYER = register("skarn_layer", new LayerBlock(FabricBlockSettings.copyOf(SKARN)));
     public static final Block CLAMSTONE = register("clamstone", new Block(FabricBlockSettings.copyOf(Blocks.TUFF).sounds(ThalassaBlockSoundGroups.THALASSA_STONES)));
+    public static final Block BOPRALT = register("bopralt", new PillarBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).sounds(ThalassaBlockSoundGroups.THALASSA_TWILIGHT_STONES)));
+    public static final Block LEENSTONE = register("leenstone", new Block(AbstractBlock.Settings.of(Material.STONE).sounds(ThalassaBlockSoundGroups.THALASSA_TWILIGHT_STONES).strength(-1.0F, 3600000.0F).dropsNothing()));
     public static final Block CRAFTING_MAT = register("crafting_mat", new CraftingMatBlock(FabricBlockSettings.copyOf(Blocks.CRAFTING_TABLE)));
     public static final Block BUBBLE_QUARTZ = register("bubble_quartz", new BubbleQuartzBlock(7, 3, AbstractBlock.Settings.of(Material.GLASS).nonOpaque().ticksRandomly().sounds(ThalassaBlockSoundGroups.THALASSA_STONES).strength(1.5F).luminance((state) -> 5)));
+    public static final Block BOUY_KELP = register("bouy_kelp", new ThalassaKelpBlock(FabricBlockSettings.copyOf(Blocks.KELP)));
+    public static final Block BOUY_KELP_PLANT = register("bouy_kelp_plant", new ThalassaKelpPlantBlock(FabricBlockSettings.copyOf(Blocks.KELP_PLANT)));
 
 
     private static Block register(String id, Block block, boolean registerItem) {
