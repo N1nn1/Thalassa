@@ -26,7 +26,7 @@ public class SeaBlanketEntity extends ThalassaTameableFishEntity {
     protected SeaBlanketEntity(EntityType<? extends ThalassaFishEntity> entityType, World world) {
         super(entityType, world);
         this.goalSelector.add(0, new ThalassaEscapeDangerGoal(this, 1.25F));
-        this.goalSelector.add(6, new ThalassaFollowOwnerGoal(this, 1.2D, 10.0F, 2.0F));
+        this.goalSelector.add(3, new ThalassaFollowOwnerGoal(this, 1.0D, 10.0F, 2.0F));
     }
 
     public static DefaultAttributeContainer.Builder createSeaBlanketAttributes() {
@@ -91,6 +91,11 @@ public class SeaBlanketEntity extends ThalassaTameableFishEntity {
 
             return super.interactMob(player, hand);
         }
+    }
+
+    @Override
+    public boolean isCollidable() {
+        return this.isStaying();
     }
 
     public boolean isHealingItem (ItemStack stack){

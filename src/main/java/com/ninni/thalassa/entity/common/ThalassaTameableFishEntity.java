@@ -8,7 +8,6 @@ import net.minecraft.entity.Tameable;
 import net.minecraft.entity.ai.goal.LookAroundGoal;
 import net.minecraft.entity.ai.goal.LookAtEntityGoal;
 import net.minecraft.entity.ai.goal.MoveIntoWaterGoal;
-import net.minecraft.entity.ai.goal.SwimAroundGoal;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.data.DataTracker;
 import net.minecraft.entity.data.TrackedData;
@@ -230,6 +229,11 @@ public class ThalassaTameableFishEntity extends ThalassaFishEntity implements Ta
         }
 
         super.onDeath(source);
+    }
+
+    @Override
+    public boolean canImmediatelyDespawn(double distanceSquared) {
+        return !this.isTamed();
     }
 
     public boolean isStaying() {
